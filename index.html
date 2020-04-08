@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+  <script src="https://kit.fontawesome.com/c3c7a02097.js" crossorigin="anonymous"></script>
+
+  <title>Music Player</title>
+
+</head>
+
+<body>
+
+  <h1>Music Player <i class="fas fa-headphones-alt"></i></h1>
+  <div class="music-container" id="music-container">
+    <div class="music-info">
+      <h4 id="title"></h4>
+      <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+      </div>
+    </div>
+
+    <audio src="music/Alex Alta - Mari Mariiko.mp3" id="audio"></audio>
+
+    <div class="img-container">
+      <img src="images/Alex Alta - Mari Mariiko.jpg" id="cover" alt="music-cover">
+    </div>
+
+    <div class="navigation">
+      <button id="prev" class="action-btn">
+        <i class="fas fa-backward"></i>
+      </button>
+      <button id="play" class="action-btn action-btn-big">
+        <i class="fas fa-play"></i>
+      </button>
+      <button id="next" class="action-btn">
+        <i class="fas fa-forward"></i>
+      </button>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>For More Awesome Music Follow Us Down Here</p>
+    <i class="fas fa-arrow-down"></i>
+    <div class="social">
+      <i class="fa fa-twitter fa-2x twitter"></i>
+      <i class="fa fa-instagram fa-2x instagram"></i>
+      <i class="fa fa-facebook fa-2x facebook"></i>
+      <i class="fa fa-youtube fa-2x youtube"></i>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
